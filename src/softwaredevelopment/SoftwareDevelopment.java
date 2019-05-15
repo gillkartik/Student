@@ -33,9 +33,9 @@ public class SoftwareDevelopment {
         
         
         
-        Student[] list = {new Student("Arpit"), new Student("Ish") , new Student("kartik")};
+        Student[] list = {new Student("Arpit", 123), new Student("Ish",234) , new Student("kartik", 345)};
     for(int i=0; i<list.length;i++) {
-        System.out.println(list[i].getName());
+        System.out.println(list[i].getName() + list[i].getStudentId());
     }
     }
     

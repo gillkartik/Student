@@ -22,8 +22,9 @@ public class Student {
     public String getName() {
         return name;
     }
-    public Student(String n) {
+    public Student(String n, int sid) {
         this.name=n;
+        this.studentId=sid;
     }
 
     /**
