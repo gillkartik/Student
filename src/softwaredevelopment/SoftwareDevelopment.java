@@ -28,6 +28,7 @@ public class SoftwareDevelopment {
 //        System.out.println(name.length);
 //        for (int i=0; i < word.length(); i++) {
 //            name[i]= word.charAt(i);
+        System.out.println("kartik");
 //        }
 //      
         
